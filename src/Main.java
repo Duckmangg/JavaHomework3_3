@@ -6,19 +6,19 @@ public class Main {
         double interestRate = 0.0999;
 
 
-        int year = 1;
+        int numberYear = 1;
 
-        double oneYear = service.calculate(creditAmount, year, interestRate);
+        double oneYear = service.calculate(creditAmount, numberYear, interestRate);
         System.out.println(oneYear);
 
-        year = 2;
+        numberYear = 2;
 
-        double twoYear = service.calculate(creditAmount, year, interestRate);
+        double twoYear = service.calculate(creditAmount, numberYear, interestRate);
         System.out.println(twoYear);
 
-        year = 3;
+        numberYear = 3;
 
-        double threeYear = service.calculate(creditAmount, year, interestRate);
+        double threeYear = service.calculate(creditAmount, numberYear, interestRate);
         System.out.println(threeYear);
     }
 }
